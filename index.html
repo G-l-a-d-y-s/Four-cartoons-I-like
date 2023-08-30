@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartoons</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      #main {
+        text-align: center;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+
+      .div {
+        object-fit: fill;
+        width: 200px;
+        height: 200px;
+        border: 5px solid white;
+      }
+      .text {
+        color: white;
+        font-family: "Caveat", cursive;
+        font-family: "Roboto Mono", monospace;
+      }
+
+      .block {
+        margin-top: 100px;
+      }
+
+      footer {
+        margin-top: auto;
+        text-align: end;
+      }
+
+      h1 {
+        margin-top: 50px;
+      }
+
+      h3 {
+        margin-top: 50px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1 class="text">Four lists of my Cartoons</h1>
+      <h3 class="text">
+        Below are the lists of cartoons that I like to watch and images to help
+        you identify them faster
+      </h3>
+
+      <div class="container">
+        <div class="fire block">
+          <a href="Firehouse Tales.html">
+            <img
+              class="div"
+              src="./Images/Firehouse Tales/firehouse tales 1.jpeg"
+              alt="Firehouse tales"
+            />
+            <h2 class="text">Firehouse Tales</h2>
+          </a>
+        </div>
+
+        <div class="justice block">
+          <a href="Justice league.html">
+            <img
+              class="div"
+              src="./Images/Justice League/justice league 1.jpeg"
+              alt="Justice League"
+            />
+            <h2 class="text">Justice League</h2>
+          </a>
+        </div>
+
+        <div class="scooby block">
+          <a href="Scooby Doo.html">
+            <img
+              class="div"
+              src="./Images/Scooby Doo/Scooby doo 1.jpeg"
+              alt="Scooby Doo"
+            />
+            <h2 class="text">Scooby Doo</h2>
+          </a>
+        </div>
+
+        <div class="teen block">
+          <a href="Teen Titans.html">
+            <img
+              class="div"
+              src="./Images/Teen Titans/Teen titans 1.jpeg"
+              alt="Teen Titans"
+            />
+            <h2 class="text">Teen Titans</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+    <a
+      href="./More Info.html"
+      style="color: white"
+      style="font-family: Arial, Helvetica, sans-serif"
+      >For More Info</a
+    >
+  </body>
+  <footer
+    style="color: white"
+    style="font-family: Arial, Helvetica, sans-serif"
+  >
+    @Gladys' HTML and CSS Web Development.2023
+  </footer>
+</html>
